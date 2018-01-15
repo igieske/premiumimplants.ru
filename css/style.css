@@ -1,0 +1,1275 @@
+body, ul, li {
+	font-family: 'Montserrat', sans-serif;
+	line-height: 22px !important;
+	color: #212529;
+}
+h1, h2, h3 {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+p {
+	font-size: 1rem;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 2.5rem;
+	font-weight: 300;
+}
+.sub-title {
+	font-weight: 300;
+	font-size: 1.75rem;
+}
+.bold {
+	font-weight: 700;
+}
+h2 {
+/*	font-size: 1.75rem;
+	font-weight: 300;*/
+}
+h3 {
+	font-weight: 500;
+	font-family: 'Montserrat', sans-serif;
+}
+h4 {
+	font-weight: 500;
+	font-family: 'Roboto Slab', serif;
+}
+div {
+	text-align: center;
+}
+.colored {
+	color: #B2371A;
+	font-weight: 700;
+	border-bottom: solid 2px #B2371A;
+}
+.navbar {
+	background: rgba(242, 241, 244, 0.75) !important;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+	-webkit-box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.05), 0 3px 14px 2px rgba(0, 0, 0, 0.12), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+		box-shadow: 0 8px 10px 1px rgba(0, 0, 0, 0.05), 0 3px 14px 2px rgba(0, 0, 0, 0.05), 0 5px 5px -3px rgba(0, 0, 0, 0.2);
+}
+.navbar-solid {
+	background: rgba(242, 241, 244, 0.96) !important;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+.btn-primary {
+	background-color: #06667f;
+	border-color: #06667f;
+}
+.btn-primary:hover {
+	background-color: #34b2e4;
+	border-color: #34b2e4;
+}
+.navbar-brand {
+	padding-bottom: 10px;
+}
+.navbar-text {
+	font-weight: 700;
+	padding-left: 48px;
+	padding-right: 16px;
+}
+.navbar-nav .home {
+	display: none;
+}
+
+@media (max-width: 412px) {
+	#nav-callback a {
+		display: none;
+	}
+	#nav-callback-mini {
+		display: inline-block !important;
+	}
+	#nav-callback-mini a {
+		height: 40px;
+		width: 40px;
+		padding: 0.35rem;
+	}
+	#nav-callback-mini img {
+		height: 100%;
+	}
+}
+@media (max-width: 575px) {
+	#nav-callback {
+		display: inline-block !important;
+	}
+	.navbar-text {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.navbar-nav .home {
+		display: block;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		color: rgba(0,0,0,.75);
+	}
+	.navbar {
+		background: rgba(242, 241, 244, 0.9) !important;
+	}
+}
+@media (min-width: 576px) and (max-width: 991px) {
+	#nav-phone, #nav-callback {
+		display: inline-block !important;
+	}
+	.navbar-text {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.navbar-nav span {
+		display: none;
+	}
+	.navbar-nav .home {
+		display: block;
+	}
+	.navbar-light .navbar-nav .nav-link {
+		color: rgba(0,0,0,.75);
+	}
+	.navbar {
+		background: rgba(242, 241, 244, 0.9) !important;
+	}
+}
+
+.fast-menu {
+	margin-left: auto;
+	padding-right: 0.5rem;
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+.fast-menu a {
+	padding-top: 7px;
+}
+.fast-menu span {
+	margin-right: 0.5rem;
+}
+#nav-phone, #nav-callback, #nav-callback-mini {
+	display: none;
+}
+
+/* hello */
+
+#hello {
+	height: 690px;
+	background-image: url(../img/hello-bg-new-zip70.jpg);
+	background-color: #e4e9eb;
+	background-size: cover;
+	background-position: center center;
+}
+#hello img {
+	position: absolute;
+	top: 150px;
+	z-index: 0;
+}
+.hello-text {
+	background-color: rgba(245, 243, 247, 0.8);
+	padding: 2.5rem 1.5rem 3.0rem;
+	border: solid #212529 7px;
+	z-index: 1;
+	margin-top: 80px;
+}
+.hello-text h1 {
+	font-size: 3.5rem;
+	text-transform: none;
+	font-weight: 500;
+	padding-bottom: 5px;
+}
+
+/* ponts */
+
+#scrollicon {
+	margin: 30px auto;
+	-webkit-transition: 0.2s;
+	transition: 0.2s;
+}
+.fade-away {
+	opacity: 0;
+}
+
+#ponts {
+	height: 430px;
+	background-color: #06667f;
+	background: url(../img/zavod/zavod-ponts-test.jpg) no-repeat fixed;
+	background-size: cover;
+	color: #fff;
+}
+#ponts h3 {
+	margin-bottom: 0.15rem;
+}
+#ponts p {
+	font-size: 1.15rem;
+}
+#ponts img {
+	margin-bottom: 1.5rem;
+	margin-top: 2.5rem;
+}
+#ponts hr {
+	background: #fff;
+	height: 3px;
+	border: 0;
+	margin-top: 1.85rem;
+}
+#ponts span {
+	padding: 0 20px;
+}
+
+/* whatsnew ( patents ) */
+
+#whatsnew {
+	height: 680px;
+	margin: 0 auto;
+}
+#whatsnew h1 {
+	margin-top: 5rem;
+	margin-bottom: 0.5rem;
+}
+#whatsnew .patents {
+	margin-top: 40px;
+}
+#whatsnew .patent {
+	width: 33%;
+	height: 327px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+#whatsnew .patent p {
+	margin-bottom: 1rem;
+}
+#whatsnew .one {
+	background-image: url('../img/patent-01.png');
+	margin-left: auto;
+}
+#whatsnew .one p {
+	padding-top: 0.85rem;
+}
+#whatsnew .two {
+	background-image: url('../img/patent-02.png');
+}
+#whatsnew .three {
+	background-image: url('../img/patent-01.png');
+	margin-right: auto;
+}
+#whatsnew hr {
+	display: none;
+}
+.malevich {
+	background-color: #efedf1;
+	display: inline-block;
+	width: 9px;
+	height: 9px;
+	margin: 4px 3px 0;
+}
+
+/* about */
+
+#about {
+	margin-top: 5rem;
+}
+#about .side-col {
+	background-color: #06667f;
+}
+#about .padded {
+	padding: 4rem 0 5.5rem;
+}
+#about hr {
+	background: #efedf1;
+	height: 9px;
+	border: 0;
+}
+.about-item {
+	text-align: left;
+	padding: 1.5rem 0.75rem;
+}
+
+/* guaranty */
+
+#guaranty {
+	background: url('../img/go-with-vrach-new-zip50.jpg') no-repeat fixed;
+	background-color: #efedf1;
+	margin-bottom: 3rem;
+	padding: 5rem 0;
+}
+#guaranty h1 {
+	padding-bottom: 4rem;
+}
+#guaranty .center-col {
+	background-color: #fff;
+	padding: 1rem 3rem;
+}
+#guaranty hr {
+	background: #3f4a55;
+	height: 9px;
+	border: 0;
+}
+.p0 {
+	padding: 0;
+}
+
+/* price */
+
+#price {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+#price h1 {
+	padding-bottom: 3rem;
+}
+#price p {
+	padding-bottom: 0.3rem;
+}
+#price h4 {
+	margin-top: 3rem;
+}
+
+/* factory */
+
+#factory {
+	padding-top: 3rem;
+	padding-bottom: 3rem;
+}
+#factory .hi-height-one {
+	height: 45rem;
+}
+#factory .hi-height-two {
+	height: 40rem;
+}
+#factory div.slide {
+	overflow: hidden;
+	width: 90%;
+}
+#factory img {
+	width: 100%;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+#factory img:hover {
+	-webkit-transform: scale(1.20, 1.20);
+	transform: scale(1.20, 1.20);
+}
+#factory .caption-block {
+	padding: 9px;
+	position: relative;
+	z-index: 2;
+	background-repeat: no-repeat;
+}
+#factory .block-one {
+	width: 40rem;
+	left: 3rem;
+	background-image: url('../img/zavod/slide-factory-border-01.png');
+	background-position: top right;
+}
+#factory .block-two {
+	width: 22rem;
+	right: -7.75rem;
+	background-image: url('../img/zavod/slide-factory-border-02.png');
+	background-position: bottom right;
+}
+#factory .block-three {
+	width: 20rem;
+	right: -5.25rem;
+	background-image: url('../img/zavod/slide-factory-border-03.png');
+	background-position: bottom center;
+}
+#factory .block-four {
+	width: 30rem;
+	left: -2rem;
+	background-image: url('../img/zavod/slide-factory-border-04.png');
+	background-position: bottom left;
+}
+#factory .caption {
+	padding: 1.5rem 1rem 1rem 3rem;
+	background-color: #fff;
+}
+#factory .one {
+	text-align: left;
+	margin-bottom: -2.75rem;
+}
+#factory .two {
+	text-align: left;
+	margin-top: -2.5rem;
+}
+#factory .three {
+	text-align: left;
+	padding: 1.25rem 3rem;
+	margin-top: -4rem;
+}
+#factory .four {
+	text-align: right;
+	padding: 1rem 3rem;
+	margin-top: -3rem;
+}
+
+/* vinogradov */
+
+#vinogradov {
+	padding-top: 5rem;
+	margin-top: 3rem;
+	margin-bottom: 6rem;
+	background-color: #efedf1;
+	z-index: 1;
+}
+#vinogradov h4 {
+	text-align: left;
+	padding-top: 1rem;
+}
+#vinogradov p {
+	text-align: right;
+	margin-top: 2.5rem;
+	margin-bottom: 6rem;
+}
+#vinogradov img {
+	width: 100%;
+}
+#vinogradov p.caption {
+	padding-bottom: 0.4rem;
+	border-bottom: solid 9px #d2cdd8;
+}
+#vinogradov .quote-left,
+#vinogradov .quote-right {
+	position: absolute;
+	color: #d2cdd8;
+	font-size: 27rem;
+	font-family: sans-serif;
+	z-index: 0;
+	top: 8.5rem;
+}
+#vinogradov .quote-left {
+	left: 4rem;
+}
+#vinogradov .quote-right {
+	right: 4rem;
+}
+
+/* conference */
+
+#conference div {
+	overflow: hidden;
+}
+#conference img {
+	width: 100%;
+	-webkit-transition: .3s;
+	transition: .3s;
+	overflow: hidden;
+}
+#conference img:hover {
+	-webkit-transform: scale(1.15, 1.15);
+	transform: scale(1.15, 1.15);
+}
+#conference .left {
+	text-align: left;
+}
+#conference .right {
+	text-align: right;
+}
+#conference .text {
+	background: #fff;
+	padding: 1rem 2rem;
+	margin: -6.5rem 10% 0 0;
+	z-index: 1;
+	text-align: left;
+}
+.textrotator {
+	display: inline-block;
+	margin: 1rem 0 0 3rem;
+	border-bottom: 9px solid #efedf1;
+}
+
+.slides-block {
+	display: inline-grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 0 2rem;
+	margin: 3rem 0 4rem;
+	padding: 0;
+}
+.slides-block a, .slides-block div {
+	overflow: hidden;
+}
+
+/* implants */
+
+#implants {
+	padding-top: 3rem;
+	padding-bottom: 2rem;
+	margin-top: 5rem;
+	background-color: #efedf1;
+}
+#implants h1 {
+	padding-top: 1rem;
+	padding-bottom: 0;
+}
+#implants img {
+	width: 100%;
+	-webkit-transition: .3s;
+	transition: .3s;
+}
+#implants img:hover {
+	-webkit-transform: scale(1.15, 1.15);
+	transform: scale(1.15, 1.15);
+}
+
+/* contacts */
+
+#contacts {
+	padding-top: 3rem;
+	padding-bottom: 0rem;
+	background-color: #32363b;
+	color: #f7f7f7;
+}
+#contacts h1 {
+	padding-top: 1rem;
+	padding-bottom: 3rem;
+}
+#contacts .icon {
+	background-color: #34b2e4;
+	width: 6rem;
+	height: 6rem;
+	margin: auto;
+}
+#contacts .pentagon-1 {
+	padding-top: 1.5rem;
+/* oktogon form
+	-webkit-clip-path: polygon(50% 7%, 90% 29%, 90% 71%, 50% 93%, 10% 71%, 10% 29%);
+	clip-path: polygon(50% 7%, 90% 29%, 90% 71%, 50% 93%, 10% 71%, 10% 29%);
+*/
+	-webkit-clip-path: polygon(50% 0%, 100% 40%, 80% 97%, 20% 97%, 0 40%);
+	clip-path: polygon(50% 0%, 100% 40%, 80% 97%, 20% 97%, 0 40%);
+}
+#contacts .pentagon-2 {
+	padding-top: 1.2rem;
+	-webkit-clip-path: polygon(20% 3%, 80% 3%, 100% 60%, 50% 100%, 0 60%);
+	clip-path: polygon(20% 3%, 80% 3%, 100% 60%, 50% 100%, 0 60%);
+}
+#contacts .pentagon-3 {
+	padding-top: 1.75rem;
+	-webkit-clip-path: polygon(50% 0%, 100% 40%, 80% 97%, 20% 97%, 0 40%);
+	clip-path: polygon(50% 0%, 100% 40%, 80% 97%, 20% 97%, 0 40%);
+}
+#contacts p {
+	padding-top: 1rem;
+}
+#contacts .callback {
+	margin-top: 4rem;
+	padding-bottom: 2.5rem;
+	background-color: #212529 !important;
+	background-image: url('../img/cells-bg-dark.png');
+	background-position: center;
+	background-size: cover;
+}
+#contacts h4 {
+	padding-top: 3.5rem;
+	padding-bottom: 0;
+}
+#contacts hr {
+	width: 45%;
+	margin-top: 0;
+	background: #32363b;
+	height: 9px;
+	border: 0;
+}
+.form-group input:focus ~ .control-label-2 {
+	color: #34b2e4 !important;
+}
+.form-group input:valid {
+	color: #c3cfd3;
+}
+.form-group .control-label-2 {
+  color: #bcb7c3;
+}
+.map {
+	padding-top: 0;
+	height: 20rem;
+}
+
+footer {
+	background-color: #212529;
+	font-size: .85rem;
+	color: #41464b;
+	padding: 1rem 0;
+	font-family: 'Montserrat', sans-serif;
+}
+footer a {
+	color: #41464b;
+	transition: .3s;
+	-webkit-transition: .3s;
+}
+footer a:hover {
+	color: #6e747b;
+}
+
+.scrollup {
+	z-index: 2;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 30px;
+	right: 50px;
+	display: none;
+	text-indent: -9999px;
+	background: url('../img/icon_top.png') no-repeat;
+}
+@media (max-width: 575px) {
+	.scrollup {
+		bottom: 20px;
+		right: 30px;
+	}
+}
+
+
+@media (max-width: 575px) {
+	.navbar-brand {
+		padding-top: 0.75rem;
+		font-size: 1rem;
+	}
+	h1 {
+		font-size: 1.4rem;
+	}
+	#hello {
+		height: 590px;
+	}
+	#hello img {
+		top: 8rem;
+		width: 85%;
+	}
+	#hello h1 {
+		font-size: 2rem;
+		font-weight: 700;
+		line-height: 2.1rem;
+		padding-bottom: 0.75rem;
+	}
+	#hello .sub-title {
+		font-size: 1.3rem;
+	}
+	#hello .hello-text {
+		margin-top: 7.5rem;
+		padding: 1.5rem 1rem 1.6rem;
+	}
+	#ponts {
+		height: auto;
+	}
+	#ponts .row {
+		padding-top: 1rem !important;
+		padding-bottom: 3rem !important;
+	}
+	#ponts .scrollicon-bar {
+		display: none;
+	}
+	#ponts .container img {
+		margin-top: 2.5rem;
+		margin-bottom: 0.5rem;
+	}
+	#ponts h3 {
+		font-size: 1.5rem;
+	}
+	#ponts hr {
+		display: none;
+	}
+	#whatsnew {
+		height: 100%;
+	}
+	#whatsnew .sub-title {
+		font-size: 1.2rem;
+	}
+	#whatsnew h1 {
+		margin-top: 3rem;
+	}
+	#whatsnew h4.sub-title {
+		padding-top: 1rem;
+	}
+	#whatsnew .sub-title.bold {
+		margin-top: 0 !important;
+		padding-top: 0;
+	}
+	#whatsnew .patents {
+		margin-top: 0;
+	}
+	#whatsnew .patent {
+		width: 100%;
+		height: 100%;
+		text-align: left;
+	}
+	#whatsnew .one, #whatsnew .two, #whatsnew .three {
+		background-image: none;
+	}
+	#whatsnew .patents h4 {
+		margin-top: 1.5rem;
+	}
+	#whatsnew hr {
+		display: block;
+		margin: 0.5rem 0 0.05rem;
+		background: #efedf1;
+		height: 9px;
+		border: 0;
+	}
+	#whatsnew p {
+		padding-top: 0.5rem !important;
+		margin-bottom: 0 !important;
+	}
+	#about {
+		margin-top: 5rem;
+	}
+	#about .padded {
+		padding-top: 1.5rem;
+		padding-bottom: 2rem;
+	}
+	#about .about-item {
+		    padding: 1rem 0.5rem;
+	}
+	#about .side-col {
+		display: none;
+	}
+	#guaranty h1 {
+		padding-bottom: 1.5rem;
+	}
+	#guaranty {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+		background-image: none;
+	}
+	#price {
+		padding-top: 2rem;
+	}
+	#price p {
+		padding-bottom: 1rem;
+	}
+	#factory {
+		padding-bottom: 0;
+		padding-top: 0.5rem;
+	}
+	#factory h4 {
+		font-size: 1.1rem;
+	}
+	#factory .hi-height-one, #factory .hi-height-two {
+		height: 100%;
+		margin-bottom: 2.5rem;
+	}
+	#factory div.slide {
+		overflow: hidden;
+		width: 100%;
+	}
+	#factory .one, #factory .two, #factory .three, #factory .four {
+		padding: 0.75rem 0.75rem 0.5rem;
+		text-align: left;
+		min-height: 4rem;
+	}
+	#factory .block-one, #factory .block-two, #factory .block-three, #factory .block-four {
+		left: 0;
+		right: 0;
+		top: 0;
+		width: 95%;
+	}
+	#factory .caption-block {
+		position: relative;
+		background-image: none;
+		margin: 0 auto
+	}
+	#vinogradov {
+		padding-top: 3rem;
+	}
+	#vinogradov .col-1, #vinogradov .portret {
+		display: none;
+	}
+	#vinogradov .phrase-one::before {
+		content: open-quote;
+	}
+	#vinogradov .phrase-two::after {
+		content: close-quote;
+	}
+	#vinogradov p {
+		margin-bottom: 3rem;
+	}
+	#vinogradov p.caption {
+		margin-top: 1.5rem;
+	}
+	#vinogradov h4 {
+		font-size: 1.1rem;
+	}
+	#conference {
+		padding-top: 2rem;
+	}
+	#conference .slides-block {
+		display: block;
+		margin-top: 0;
+		margin-bottom: 0;
+	}
+	#conference .slides-block div {
+		margin-top: 1.5rem;
+	}
+	#conference div.text {
+		position: static;
+		margin: -5rem 0 0 0 !important;
+	}
+	#implants {
+		padding-top: 2rem;
+		padding-bottom: 1rem;
+	}
+	#implants .slides-block {
+		padding: 0 1rem;
+		grid-gap: 1rem;
+		grid-template-columns: 1fr;
+		margin-bottom: 3rem;
+	}
+	#contacts h1 {
+		padding-top: 0;
+		padding-bottom: 1rem;
+	}
+	#contacts p {
+		padding-top: 0;
+	}
+	#contacts .icon {
+		margin-top: 2rem;
+		margin-bottom: 0.5rem;
+	}
+	.map {
+		height: 25rem;
+	}
+}
+@media (min-width: 576px) and (max-width: 767px) {
+	h1 {
+		font-size: 2rem;
+	}
+	#hello {
+		height: 530px;
+	}
+	#hello img {
+		top: 6.5rem;
+		height: 63%;
+	}
+	#hello h1 {
+		font-size: 2rem;
+		font-weight: 700;
+		line-height: 3.5rem;
+		padding-bottom: 0rem;
+	}
+	#hello .sub-title {
+		font-size: 1.2rem;
+	}
+	#hello .hello-text {
+		margin-top: 3.5rem;
+		padding: 1.5rem 1rem 2.25rem;
+	}
+	#ponts {
+		height: 300px;
+	}
+	#ponts .scrollicon-bar {
+		height: 2rem;
+	}
+	#ponts .container img {
+		margin-top: 0.2rem;
+	}
+	#ponts img#scrollicon {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	#ponts h3 {
+		font-size: 1.5rem;
+	}
+	#ponts h3.second-pont {
+		padding: 0 3rem;
+	}
+	#ponts p {
+		padding: 1rem;
+		font-size: 1rem;
+	}
+	#ponts hr {
+		margin-top: 0;
+	}
+	#whatsnew {
+		height: 100%;
+	}
+	#whatsnew .sub-title.bold {
+		margin-top: 2rem !important;
+	}
+	#whatsnew .patents {
+		margin-top: 1rem;
+	}
+	#whatsnew .patent {
+		width: 100%;
+		height: 100%;
+		text-align: left;
+	}
+	#whatsnew .one, #whatsnew .two, #whatsnew .three {
+		background-image: none;
+	}
+	#whatsnew .patents h4 {
+		margin-top: 1.5rem;
+	}
+	#whatsnew hr {
+		display: block;
+		margin: 0.5rem 0 0.05rem;
+		background: #efedf1;
+		height: 9px;
+		border: 0;
+	}
+	#whatsnew p {
+		padding-top: 0.5rem !important;
+		margin-bottom: 0 !important;
+	}
+	#about .padded {
+		padding-bottom: 4rem;
+	}
+	#guaranty h1 {
+		padding-bottom: 2rem;
+	}
+	#guaranty {
+		padding-bottom: 4rem;
+	}
+	#price {
+		padding-top: 2rem;
+	}
+	#price p {
+		padding-bottom: 1rem;
+		padding-left: 20%;
+		padding-right: 20%;
+	}
+	#factory {
+		padding-bottom: 1rem;
+		padding-top: 1rem;
+	}
+	#factory h4 {
+		font-size: 1.1rem;
+	}
+	#factory .hi-height-one, #factory .hi-height-two {
+		height: 100%;
+		margin-bottom: 2.5rem;
+	}
+	#factory div.slide {
+		overflow: hidden;
+		width: 100%;
+	}
+	#factory .one, #factory .two, #factory .three, #factory .four {
+		padding: 0.75rem 0.75rem 0.5rem;
+		text-align: left;
+		min-height: 4rem;
+	}
+	#factory .block-one, #factory .block-two, #factory .block-three, #factory .block-four {
+		left: 0;
+		right: 0;
+		top: 0;
+		width: 95%;
+	}
+	#factory .caption-block {
+		position: relative;
+		background-image: none;
+		margin: 0 auto
+	}
+	#vinogradov {
+		padding-top: 4rem;
+	}
+	#vinogradov p {
+		margin-bottom: 4rem;
+	}
+	#vinogradov h4 {
+		font-size: 1.1rem;
+	}
+	#vinogradov h4.minus-margin {
+		margin-right: -5rem;
+	}
+	#vinogradov .quote-left {
+		top: 3.3rem;
+		left: 2rem;
+		font-size: 10rem;
+	}
+	#vinogradov .quote-right {
+		top: 3.3rem;
+		right: 2rem;
+		font-size: 10rem;
+	}
+	#vinogradov span.quote-left {
+		left: 0.5rem;
+	}
+	#vinogradov span.quote-right {
+		right: 0.5rem;
+	}
+	#conference {
+		padding-top: 3rem;
+	}
+	#conference .slides-block {
+		display: block;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+	#conference .slides-block div {
+		margin-top: 2rem;
+	}
+	#conference div.text {
+		position: static;
+		margin: -5rem 1rem 0 1rem !important;
+	}
+	#implants {
+		padding-bottom: 1rem;
+	}
+	#implants .slides-block {
+		grid-gap: 0 1rem;
+	}
+	#contacts h1 {
+		padding-bottom: 1rem;
+	}
+	#contacts p {
+		padding-top: 0;
+	}
+	#contacts .icon {
+		margin-top: 2rem;
+		margin-bottom: 0.5rem;
+	}
+	#contacts h4 {
+		padding-left: 2rem;
+		padding-right: 2rem;
+	}
+	#contacts span.brr {
+		white-space: nowrap;
+	}
+	.map {
+		height: 25rem;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#hello {
+		height: 600px;
+	}
+	#hello img {
+		top: 6rem;
+	}
+	#hello h1 {
+		font-weight: 700;
+		font-size: 2.5rem;
+		margin-bottom: 0.3rem;
+	}
+	#hello .sub-title {
+		font-size: 1.45rem;
+	}
+	#hello .hello-text {
+		margin-top: 2.5rem;
+		padding: 2rem 1rem 2.5rem;
+	}
+	#ponts {
+		height: 264px;
+	}
+	#ponts .scrollicon-bar {
+		height: 3rem;
+	}
+	#ponts .container img {
+		margin-top: 0;
+	}
+	#ponts img#scrollicon {
+		margin-top: 0.5rem;
+		margin-bottom: 0.5rem;
+	}
+	#ponts h3 {
+		font-size: 1.5rem;
+	}
+	#ponts p {
+		font-size: 1rem;
+	}
+	#ponts hr {
+		margin-top: 1.5rem;
+	}
+	#whatsnew {
+		height: 100%;
+	}
+	#whatsnew h1 {
+		margin-top: 5rem;
+	}
+	#whatsnew p {
+		font-size: 0.75rem;
+		line-height: 1rem;
+		margin-bottom: 0.8rem !important;
+	}
+	#whatsnew .patents {
+		margin-top: 1.5rem;
+	}
+	#whatsnew .patent {
+		width: 36%;
+	}
+	#whatsnew .one, #whatsnew .three {
+		margin-top: -8.9rem;
+		padding: 7.25rem 2.4rem 0;
+	}
+	#whatsnew .two {
+		margin: -2.75rem -2.5rem;
+		padding: 3.8rem 1.9rem 0;
+	}
+	#whatsnew .patent h4 {
+		margin-bottom: 1.2rem;
+	}
+	#whatsnew .sub-title.bold {
+		margin-top: 2rem !important;
+	}
+	#whatsnew .two h4 {
+		margin-bottom: 0.7rem;
+	}
+	#whatsnew .two span {
+		display: block;
+	}
+	#guaranty h4 span {
+		display: block;
+	}
+	#factory h4 {
+		font-size: 1.4rem;
+	}
+	#factory .hi-height-one {
+		height: 32rem;
+	}
+	#factory .hi-height-two {
+		margin-top: -3rem;
+		height: 29rem;
+	}
+	#factory div.slide {
+		overflow: hidden;
+		width: 96%;
+	}
+	#factory .one, #factory .two, #factory .three, #factory .four {
+		padding: 1rem 1.5rem 0.5rem;
+	}
+	#factory .block-one {
+		width: 35rem;
+		left: 2rem;
+	}
+	#factory .block-two {
+		width: 18rem;
+		right: -1.7rem;
+	}
+	#factory .block-three {
+		margin-top: 0.75rem;
+		width: 16.5rem;
+		left: 1.7rem;
+	}
+	#factory .block-four {
+		width: 27rem;
+		left: -11rem;
+	}
+	#vinogradov h4.minus-margin {
+		margin-right: -5rem;
+	}
+	#vinogradov .quote-left {
+		top: 3.3rem;
+		left: 2rem;
+		font-size: 10rem;
+	}
+	#vinogradov .quote-right {
+		top: 3.3rem;
+		right: 2rem;
+		font-size: 10rem;
+	}
+	#vinogradov span.quote-left {
+		left: 0.5rem;
+	}
+	#vinogradov span.quote-right {
+		right: 0.5rem;
+	}
+	#conference div.text {
+		margin: -5rem 4rem 0 7rem !important;
+	}
+	#contacts p.head {
+		font-size: 85%;
+	}
+	.popup .form-button.button {
+		margin-top: 1.8rem !important;
+		margin-bottom: 0 !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	#about {
+		margin-top: 4rem;
+	}
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-left: .36rem !important;
+	}
+	#whatsnew .one, #whatsnew .three {
+		margin-top: -7.5rem;
+		padding: 6.25rem 3rem 0;
+	}
+	#whatsnew .two {
+		margin: 0 -2.9rem;
+		padding: 2.3rem 2.4rem 0;
+	}
+	#whatsnew .patent h4 {
+		margin-bottom: 1.3rem;
+	}
+	#whatsnew .two h4 {
+		margin-bottom: 0.5rem;
+	}
+	#whatsnew .two span {
+		display: block;
+	}
+	#guaranty h4 span {
+		display: block;
+	}
+	#factory h4 {
+		font-size: 1.4rem;
+	}
+	#factory .hi-height-one {
+		height: 40rem;
+	}
+	#factory .hi-height-two {
+		margin-top: -3rem;
+		height: 35rem;
+	}
+	#factory .block-one .caption.one {
+		padding-right: 2rem;
+	}
+	#factory .block-two {
+		right: -4.6rem;
+	}
+	#factory .block-three {
+		left: 2.75rem;
+	}
+	#factory .block-four {
+		left: -7rem;
+	}
+	#vinogradov .quote-left {
+		top: 3.3rem;
+		left: 2rem;
+		font-size: 10rem;
+	}
+	#vinogradov .quote-right {
+		top: 3.3rem;
+		right: 2rem;
+		font-size: 10rem;
+	}
+	#conference .text {
+		margin-top: -5.5rem;
+	}
+}
+@media (min-width: 1200px) {
+	#about .padded {
+		padding: 5rem 0 9rem;
+	}
+	#whatsnew .one, #whatsnew .three {
+		margin-top: -8rem;
+		padding: 6rem 5rem 0;
+	}
+	#whatsnew .two {
+		margin: 0 -5.25rem;
+		padding: 2rem 4rem 0;
+	}
+	#whatsnew .patent h4 {
+		margin-bottom: 2rem;
+	}
+	#whatsnew .two h4 {
+		margin-bottom: 1.0rem;
+	}
+	#whatsnew .two span {
+		display: block;
+	}
+	#guaranty .padded {
+		padding: 7rem 0 9rem;
+	}
+	#guaranty .h4span {
+		padding-right: 15rem;
+	}
+	.map {
+		height: 28rem;
+	}
+}
+
+@media (min-width: 1200px) and (max-width: 1471px) {
+	#about h4 {
+		padding-right: 10rem;
+	}
+}
